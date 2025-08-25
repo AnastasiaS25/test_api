@@ -1,0 +1,16 @@
+{
+    "имя": "John",
+    "возраст": 36,
+    "kids": [
+        "Mike",
+        "Anna"
+    ],
+    "pets": {
+        "dog": "Rex",
+        "cat": "Barsik"
+    },
+    "wife": {
+        "name": "Jane",
+        "age": 6
+    }
+}

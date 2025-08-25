@@ -1,6 +1,7 @@
-services:
-  - type: web
-    name: fastapi-render
-    runtime: python
-    buildCommand: pip install -r req.txt
-    startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def home():
+    return {"message": "Hello from FastAPI on Render!"}
